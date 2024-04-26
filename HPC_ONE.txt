@@ -455,3 +455,6 @@ nvcc hello_world.cu -o hello_world
 ./hello_world
 */
 ===================================================================================================
+
+gcc -o hello -fopenmp hello.c // compile
+./hello // run
